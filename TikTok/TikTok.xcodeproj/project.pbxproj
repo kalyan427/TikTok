@@ -14,6 +14,8 @@
 		F7A0E8EC2B6B25820006B556 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7A0E8EB2B6B25820006B556 /* Assets.xcassets */; };
 		F7A0E8EF2B6B25820006B556 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7A0E8EE2B6B25820006B556 /* Preview Assets.xcassets */; };
 		F7F9A5062B80B9D100A3AED9 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F9A5052B80B9D100A3AED9 /* FeedCell.swift */; };
+		F7F9A5082B80C37000A3AED9 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F9A5072B80C37000A3AED9 /* ExploreView.swift */; };
+		F7F9A50A2B80C39500A3AED9 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F9A5092B80C39500A3AED9 /* UserCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		F7A0E8EB2B6B25820006B556 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7A0E8EE2B6B25820006B556 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F7F9A5052B80B9D100A3AED9 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		F7F9A5072B80C37000A3AED9 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		F7F9A5092B80C39500A3AED9 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +145,8 @@
 		F7A0E8FC2B6B26A50006B556 /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				F7F9A5072B80C37000A3AED9 /* ExploreView.swift */,
+				F7F9A5092B80C39500A3AED9 /* UserCell.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -278,7 +284,9 @@
 				F7F9A5062B80B9D100A3AED9 /* FeedCell.swift in Sources */,
 				F7A0E8EA2B6B25810006B556 /* ContentView.swift in Sources */,
 				F7A0E8E82B6B25810006B556 /* TikTokApp.swift in Sources */,
+				F7F9A5082B80C37000A3AED9 /* ExploreView.swift in Sources */,
 				F72B9AC52B7B016C00F9274C /* MainTabView.swift in Sources */,
+				F7F9A50A2B80C39500A3AED9 /* UserCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
