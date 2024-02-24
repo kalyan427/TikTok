@@ -11,6 +11,10 @@
 		F73F3A092B80B46F009C099E /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73F3A082B80B46F009C099E /* FeedView.swift */; };
 		F740159B2B89F8C1002BB04D /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F740159A2B89F8C1002BB04D /* NotificationsView.swift */; };
 		F740159D2B89F8D6002BB04D /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F740159C2B89F8D6002BB04D /* NotificationCell.swift */; };
+		F740159F2B89FF28002BB04D /* CurrentUserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F740159E2B89FF28002BB04D /* CurrentUserProfileView.swift */; };
+		F74015A12B8A0009002BB04D /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74015A02B8A0009002BB04D /* ProfileHeaderView.swift */; };
+		F74015A32B8A001C002BB04D /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74015A22B8A001C002BB04D /* PostGridView.swift */; };
+		F74015A72B8A0475002BB04D /* UserStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74015A62B8A0475002BB04D /* UserStatView.swift */; };
 		F7A0E8E82B6B25810006B556 /* TikTokApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A0E8E72B6B25810006B556 /* TikTokApp.swift */; };
 		F7A0E8EA2B6B25810006B556 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A0E8E92B6B25810006B556 /* ContentView.swift */; };
 		F7A0E8EC2B6B25820006B556 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7A0E8EB2B6B25820006B556 /* Assets.xcassets */; };
@@ -25,6 +29,10 @@
 		F73F3A082B80B46F009C099E /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		F740159A2B89F8C1002BB04D /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
 		F740159C2B89F8D6002BB04D /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
+		F740159E2B89FF28002BB04D /* CurrentUserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileView.swift; sourceTree = "<group>"; };
+		F74015A02B8A0009002BB04D /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		F74015A22B8A001C002BB04D /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
+		F74015A62B8A0475002BB04D /* UserStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatView.swift; sourceTree = "<group>"; };
 		F7A0E8E42B6B25810006B556 /* TikTok.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TikTok.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7A0E8E72B6B25810006B556 /* TikTokApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikTokApp.swift; sourceTree = "<group>"; };
 		F7A0E8E92B6B25810006B556 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,6 +54,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F74015A42B8A03FE002BB04D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F74015A22B8A001C002BB04D /* PostGridView.swift */,
+				F74015A02B8A0009002BB04D /* ProfileHeaderView.swift */,
+				F74015A62B8A0475002BB04D /* UserStatView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		F74015A52B8A0413002BB04D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F740159E2B89FF28002BB04D /* CurrentUserProfileView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		F7A0E8DB2B6B25810006B556 = {
 			isa = PBXGroup;
 			children = (
@@ -166,6 +192,8 @@
 		F7A0E8FE2B6B26A80006B556 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				F74015A52B8A0413002BB04D /* View */,
+				F74015A42B8A03FE002BB04D /* Components */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -288,11 +316,15 @@
 			files = (
 				F73F3A092B80B46F009C099E /* FeedView.swift in Sources */,
 				F740159D2B89F8D6002BB04D /* NotificationCell.swift in Sources */,
+				F74015A12B8A0009002BB04D /* ProfileHeaderView.swift in Sources */,
+				F74015A72B8A0475002BB04D /* UserStatView.swift in Sources */,
 				F7F9A5062B80B9D100A3AED9 /* FeedCell.swift in Sources */,
 				F7A0E8EA2B6B25810006B556 /* ContentView.swift in Sources */,
 				F7A0E8E82B6B25810006B556 /* TikTokApp.swift in Sources */,
 				F7F9A5082B80C37000A3AED9 /* ExploreView.swift in Sources */,
 				F72B9AC52B7B016C00F9274C /* MainTabView.swift in Sources */,
+				F74015A32B8A001C002BB04D /* PostGridView.swift in Sources */,
+				F740159F2B89FF28002BB04D /* CurrentUserProfileView.swift in Sources */,
 				F7F9A50A2B80C39500A3AED9 /* UserCell.swift in Sources */,
 				F740159B2B89F8C1002BB04D /* NotificationsView.swift in Sources */,
 			);
