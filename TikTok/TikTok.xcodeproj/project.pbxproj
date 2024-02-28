@@ -21,6 +21,7 @@
 		F7A0E8EA2B6B25810006B556 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A0E8E92B6B25810006B556 /* ContentView.swift */; };
 		F7A0E8EC2B6B25820006B556 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7A0E8EB2B6B25820006B556 /* Assets.xcassets */; };
 		F7A0E8EF2B6B25820006B556 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7A0E8EE2B6B25820006B556 /* Preview Assets.xcassets */; };
+		F7B3E4142B8ED62D00934B5C /* CustomVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B3E4132B8ED62D00934B5C /* CustomVideoPlayer.swift */; };
 		F7F9A5062B80B9D100A3AED9 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F9A5052B80B9D100A3AED9 /* FeedCell.swift */; };
 		F7F9A5082B80C37000A3AED9 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F9A5072B80C37000A3AED9 /* ExploreView.swift */; };
 		F7F9A50A2B80C39500A3AED9 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F9A5092B80C39500A3AED9 /* UserCell.swift */; };
@@ -42,6 +43,7 @@
 		F7A0E8E92B6B25810006B556 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F7A0E8EB2B6B25820006B556 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7A0E8EE2B6B25820006B556 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F7B3E4132B8ED62D00934B5C /* CustomVideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CustomVideoPlayer.swift; path = TikTok/Core/CustomVideoPlayer.swift; sourceTree = SOURCE_ROOT; };
 		F7F9A5052B80B9D100A3AED9 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		F7F9A5072B80C37000A3AED9 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 		F7F9A5092B80C39500A3AED9 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
@@ -249,6 +251,7 @@
 		F7A0E9012B6B26AD0006B556 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				F7B3E4132B8ED62D00934B5C /* CustomVideoPlayer.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -345,6 +348,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F73F3A092B80B46F009C099E /* FeedView.swift in Sources */,
+				F7B3E4142B8ED62D00934B5C /* CustomVideoPlayer.swift in Sources */,
 				F740159D2B89F8D6002BB04D /* NotificationCell.swift in Sources */,
 				F74015A12B8A0009002BB04D /* ProfileHeaderView.swift in Sources */,
 				F74015A72B8A0475002BB04D /* UserStatView.swift in Sources */,
