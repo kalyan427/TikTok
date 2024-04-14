@@ -24,6 +24,9 @@
 		F76AB1AD2BCB47AA00BD741E /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F76AB1AC2BCB47AA00BD741E /* FirebaseAnalyticsSwift */; };
 		F76AB1AF2BCB47AA00BD741E /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = F76AB1AE2BCB47AA00BD741E /* FirebaseAnalyticsWithoutAdIdSupport */; };
 		F76AB1B12BCB47AA00BD741E /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = F76AB1B02BCB47AA00BD741E /* FirebaseAppCheck */; };
+		F76AB1B92BCB55F300BD741E /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76AB1B82BCB55F300BD741E /* AuthService.swift */; };
+		F76AB1BB2BCB572200BD741E /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76AB1BA2BCB572200BD741E /* LoginViewModel.swift */; };
+		F76AB1BD2BCB599500BD741E /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76AB1BC2BCB599500BD741E /* RegistrationViewModel.swift */; };
 		F774E23F2BC8B45F007B9C0B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F774E23E2BC8B45F007B9C0B /* LoginView.swift */; };
 		F774E2412BC8B479007B9C0B /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F774E2402BC8B479007B9C0B /* RegistrationView.swift */; };
 		F774E2432BC8BBFC007B9C0B /* StandardTextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F774E2422BC8BBFC007B9C0B /* StandardTextFieldModifier.swift */; };
@@ -50,6 +53,9 @@
 		F74015A62B8A0475002BB04D /* UserStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatView.swift; sourceTree = "<group>"; };
 		F76AB1A32BCACB8700BD741E /* AuthenticationFormProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AuthenticationFormProtocol.swift; path = TikTok/Core/Authentication/AuthenticationFormProtocol.swift; sourceTree = SOURCE_ROOT; };
 		F76AB1A52BCB46F100BD741E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F76AB1B82BCB55F300BD741E /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AuthService.swift; path = TikTok/Core/Authentication/AuthService.swift; sourceTree = SOURCE_ROOT; };
+		F76AB1BA2BCB572200BD741E /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginViewModel.swift; path = TikTok/Core/Authentication/LoginViewModel.swift; sourceTree = SOURCE_ROOT; };
+		F76AB1BC2BCB599500BD741E /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RegistrationViewModel.swift; path = TikTok/Core/Authentication/RegistrationViewModel.swift; sourceTree = SOURCE_ROOT; };
 		F774E23E2BC8B45F007B9C0B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		F774E2402BC8B479007B9C0B /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		F774E2422BC8BBFC007B9C0B /* StandardTextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardTextFieldModifier.swift; sourceTree = "<group>"; };
@@ -125,6 +131,8 @@
 		F774E2392BC8B40B007B9C0B /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				F76AB1BA2BCB572200BD741E /* LoginViewModel.swift */,
+				F76AB1BC2BCB599500BD741E /* RegistrationViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -141,6 +149,7 @@
 		F774E23B2BC8B412007B9C0B /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				F76AB1B82BCB55F300BD741E /* AuthService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -425,10 +434,13 @@
 			files = (
 				F73F3A092B80B46F009C099E /* FeedView.swift in Sources */,
 				F7B3E4142B8ED62D00934B5C /* CustomVideoPlayer.swift in Sources */,
+				F76AB1BB2BCB572200BD741E /* LoginViewModel.swift in Sources */,
 				F740159D2B89F8D6002BB04D /* NotificationCell.swift in Sources */,
 				F774E2412BC8B479007B9C0B /* RegistrationView.swift in Sources */,
 				F74015A12B8A0009002BB04D /* ProfileHeaderView.swift in Sources */,
 				F774E2432BC8BBFC007B9C0B /* StandardTextFieldModifier.swift in Sources */,
+				F76AB1BD2BCB599500BD741E /* RegistrationViewModel.swift in Sources */,
+				F76AB1B92BCB55F300BD741E /* AuthService.swift in Sources */,
 				F74015A72B8A0475002BB04D /* UserStatView.swift in Sources */,
 				F7F9A5062B80B9D100A3AED9 /* FeedCell.swift in Sources */,
 				F731F5CB2B8D61950084AECE /* FeedViewModel.swift in Sources */,
