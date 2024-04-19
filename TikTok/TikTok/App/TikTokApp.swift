@@ -22,7 +22,7 @@ struct TikTokApp: App {
     
     var body: some Scene {
         WindowGroup {
-            LoginView()
+            ContentView()
         }
     }
 }
