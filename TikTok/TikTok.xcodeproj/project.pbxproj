@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F70FD2A02BD47F94002CAC21 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70FD29F2BD47F94002CAC21 /* User.swift */; };
+		F70FD2A22BD4806E002CAC21 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70FD2A12BD4806E002CAC21 /* UserService.swift */; };
+		F70FD2A42BD480F0002CAC21 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F70FD2A32BD480F0002CAC21 /* FirebaseFirestoreSwift */; };
 		F71C5E2C2BD1FAFF00B9E226 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = F71C5E2B2BD1FAFF00B9E226 /* FirebaseAuth */; };
 		F71C5E2E2BD1FB0D00B9E226 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F71C5E2D2BD1FB0D00B9E226 /* FirebaseDatabaseSwift */; };
 		F71C5E302BD1FB1500B9E226 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = F71C5E2F2BD1FB1500B9E226 /* FirebaseFirestore */; };
@@ -46,6 +49,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F70FD29F2BD47F94002CAC21 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = User.swift; path = TikTok/User.swift; sourceTree = SOURCE_ROOT; };
+		F70FD2A12BD4806E002CAC21 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserService.swift; path = TikTok/UserService.swift; sourceTree = SOURCE_ROOT; };
 		F71C5E332BD1FE6400B9E226 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		F72B9AC42B7B016C00F9274C /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainTabView.swift; path = TikTok/Core/MainTabView.swift; sourceTree = SOURCE_ROOT; };
 		F731F5C42B8D60B20084AECE /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Post.swift; path = TikTok/Core/Feed/Post.swift; sourceTree = SOURCE_ROOT; };
@@ -86,6 +91,7 @@
 				F71C5E322BD1FB2900B9E226 /* FirebaseStorage in Frameworks */,
 				F71C5E2C2BD1FAFF00B9E226 /* FirebaseAuth in Frameworks */,
 				F76AB1A92BCB47AA00BD741E /* FirebaseAnalytics in Frameworks */,
+				F70FD2A42BD480F0002CAC21 /* FirebaseFirestoreSwift in Frameworks */,
 				F76AB1AB2BCB47AA00BD741E /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
 				F71C5E302BD1FB1500B9E226 /* FirebaseFirestore in Frameworks */,
 				F76AB1B12BCB47AA00BD741E /* FirebaseAppCheck in Frameworks */,
@@ -238,6 +244,7 @@
 		F7A0E8F62B6B25E00006B556 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				F70FD2A12BD4806E002CAC21 /* UserService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -246,6 +253,7 @@
 			isa = PBXGroup;
 			children = (
 				F731F5C42B8D60B20084AECE /* Post.swift */,
+				F70FD29F2BD47F94002CAC21 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -396,6 +404,7 @@
 				F71C5E2D2BD1FB0D00B9E226 /* FirebaseDatabaseSwift */,
 				F71C5E2F2BD1FB1500B9E226 /* FirebaseFirestore */,
 				F71C5E312BD1FB2900B9E226 /* FirebaseStorage */,
+				F70FD2A32BD480F0002CAC21 /* FirebaseFirestoreSwift */,
 			);
 			productName = TikTok;
 			productReference = F7A0E8E42B6B25810006B556 /* TikTok.app */;
@@ -458,8 +467,10 @@
 				F73F3A092B80B46F009C099E /* FeedView.swift in Sources */,
 				F7B3E4142B8ED62D00934B5C /* CustomVideoPlayer.swift in Sources */,
 				F76AB1BB2BCB572200BD741E /* LoginViewModel.swift in Sources */,
+				F70FD2A02BD47F94002CAC21 /* User.swift in Sources */,
 				F740159D2B89F8D6002BB04D /* NotificationCell.swift in Sources */,
 				F774E2412BC8B479007B9C0B /* RegistrationView.swift in Sources */,
+				F70FD2A22BD4806E002CAC21 /* UserService.swift in Sources */,
 				F74015A12B8A0009002BB04D /* ProfileHeaderView.swift in Sources */,
 				F774E2432BC8BBFC007B9C0B /* StandardTextFieldModifier.swift in Sources */,
 				F76AB1BD2BCB599500BD741E /* RegistrationViewModel.swift in Sources */,
@@ -697,6 +708,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		F70FD2A32BD480F0002CAC21 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F76AB1A72BCB47AA00BD741E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
 		F71C5E2B2BD1FAFF00B9E226 /* FirebaseAuth */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = F76AB1A72BCB47AA00BD741E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
