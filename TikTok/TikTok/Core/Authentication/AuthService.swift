@@ -18,7 +18,14 @@ class AuthService {
     }
     
     func login(withEmail email: String, password: String) async throws {
-        print("DEBUG: Login with email \(email)")
+        do {
+            let result = try await Auth.auth().signIn(withEmail: email, password: password)
+            self.userSession = result.user
+            print("DEBUG: User is \(result.user.uid)")
+        } catch {
+            print("DEBUG: Failed to login with user error \(error.localizedDescription)")
+            throw error
+        }
     }
     
     func createUser(withEmail email: String, 
@@ -28,6 +35,7 @@ class AuthService {
         
         do {
             let result = try await Auth.auth().createUser(withEmail: email, password: password)
+            self.userSession = result.user
             print("DEBUG: User is \(result.user.uid)")
         } catch {
             print("DEBUG: User is not registered \(error.localizedDescription)")
@@ -36,6 +44,7 @@ class AuthService {
     }
     
     func signOut() {
-        
+        try? Auth.auth().signOut()
+        self.userSession = nil
     }
 }
