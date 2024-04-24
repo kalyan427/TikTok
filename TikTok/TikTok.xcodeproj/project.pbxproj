@@ -46,6 +46,8 @@
 		F7F9A5062B80B9D100A3AED9 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F9A5052B80B9D100A3AED9 /* FeedCell.swift */; };
 		F7F9A5082B80C37000A3AED9 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F9A5072B80C37000A3AED9 /* ExploreView.swift */; };
 		F7F9A50A2B80C39500A3AED9 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F9A5092B80C39500A3AED9 /* UserCell.swift */; };
+		F7FA3AF72BD8994200C7B46E /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FA3AF62BD8994200C7B46E /* PreviewProvider.swift */; };
+		F7FA3AFB2BD89C1B00C7B46E /* ExploreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FA3AFA2BD89C1B00C7B46E /* ExploreViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -79,6 +81,8 @@
 		F7F9A5052B80B9D100A3AED9 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		F7F9A5072B80C37000A3AED9 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 		F7F9A5092B80C39500A3AED9 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		F7FA3AF62BD8994200C7B46E /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
+		F7FA3AFA2BD89C1B00C7B46E /* ExploreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -261,6 +265,7 @@
 		F7A0E8F82B6B25E60006B556 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				F7FA3AF62BD8994200C7B46E /* PreviewProvider.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -301,8 +306,8 @@
 		F7A0E8FC2B6B26A50006B556 /* Search */ = {
 			isa = PBXGroup;
 			children = (
-				F7F9A5072B80C37000A3AED9 /* ExploreView.swift */,
-				F7F9A5092B80C39500A3AED9 /* UserCell.swift */,
+				F7FA3AF92BD89BB900C7B46E /* View */,
+				F7FA3AF82BD89BB600C7B46E /* ViewModel */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -376,6 +381,23 @@
 			children = (
 			);
 			path = UploadMedia;
+			sourceTree = "<group>";
+		};
+		F7FA3AF82BD89BB600C7B46E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F7FA3AFA2BD89C1B00C7B46E /* ExploreViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F7FA3AF92BD89BB900C7B46E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F7F9A5072B80C37000A3AED9 /* ExploreView.swift */,
+				F7F9A5092B80C39500A3AED9 /* UserCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -471,6 +493,7 @@
 				F740159D2B89F8D6002BB04D /* NotificationCell.swift in Sources */,
 				F774E2412BC8B479007B9C0B /* RegistrationView.swift in Sources */,
 				F70FD2A22BD4806E002CAC21 /* UserService.swift in Sources */,
+				F7FA3AF72BD8994200C7B46E /* PreviewProvider.swift in Sources */,
 				F74015A12B8A0009002BB04D /* ProfileHeaderView.swift in Sources */,
 				F774E2432BC8BBFC007B9C0B /* StandardTextFieldModifier.swift in Sources */,
 				F76AB1BD2BCB599500BD741E /* RegistrationViewModel.swift in Sources */,
@@ -483,6 +506,7 @@
 				F76AB1A42BCACB8700BD741E /* AuthenticationFormProtocol.swift in Sources */,
 				F7A0E8EA2B6B25810006B556 /* ContentView.swift in Sources */,
 				F7A0E8E82B6B25810006B556 /* TikTokApp.swift in Sources */,
+				F7FA3AFB2BD89C1B00C7B46E /* ExploreViewModel.swift in Sources */,
 				F774E23F2BC8B45F007B9C0B /* LoginView.swift in Sources */,
 				F7F9A5082B80C37000A3AED9 /* ExploreView.swift in Sources */,
 				F72B9AC52B7B016C00F9274C /* MainTabView.swift in Sources */,
