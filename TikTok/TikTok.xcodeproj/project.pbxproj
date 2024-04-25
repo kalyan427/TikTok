@@ -25,6 +25,7 @@
 		F74015A12B8A0009002BB04D /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74015A02B8A0009002BB04D /* ProfileHeaderView.swift */; };
 		F74015A32B8A001C002BB04D /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74015A22B8A001C002BB04D /* PostGridView.swift */; };
 		F74015A72B8A0475002BB04D /* UserStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74015A62B8A0475002BB04D /* UserStatView.swift */; };
+		F768F10D2BD9F4730083B51A /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F768F10C2BD9F4730083B51A /* UserProfileView.swift */; };
 		F76AB1A42BCACB8700BD741E /* AuthenticationFormProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76AB1A32BCACB8700BD741E /* AuthenticationFormProtocol.swift */; };
 		F76AB1A62BCB46F100BD741E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F76AB1A52BCB46F100BD741E /* GoogleService-Info.plist */; };
 		F76AB1A92BCB47AA00BD741E /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = F76AB1A82BCB47AA00BD741E /* FirebaseAnalytics */; };
@@ -64,6 +65,7 @@
 		F74015A02B8A0009002BB04D /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
 		F74015A22B8A001C002BB04D /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
 		F74015A62B8A0475002BB04D /* UserStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatView.swift; sourceTree = "<group>"; };
+		F768F10C2BD9F4730083B51A /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
 		F76AB1A32BCACB8700BD741E /* AuthenticationFormProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AuthenticationFormProtocol.swift; path = TikTok/Core/Authentication/AuthenticationFormProtocol.swift; sourceTree = SOURCE_ROOT; };
 		F76AB1A52BCB46F100BD741E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F76AB1B82BCB55F300BD741E /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AuthService.swift; path = TikTok/Core/Authentication/AuthService.swift; sourceTree = SOURCE_ROOT; };
@@ -151,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				F740159E2B89FF28002BB04D /* CurrentUserProfileView.swift */,
+				F768F10C2BD9F4730083B51A /* UserProfileView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -511,6 +514,7 @@
 				F7F9A5082B80C37000A3AED9 /* ExploreView.swift in Sources */,
 				F72B9AC52B7B016C00F9274C /* MainTabView.swift in Sources */,
 				F74015A32B8A001C002BB04D /* PostGridView.swift in Sources */,
+				F768F10D2BD9F4730083B51A /* UserProfileView.swift in Sources */,
 				F740159F2B89FF28002BB04D /* CurrentUserProfileView.swift in Sources */,
 				F7F9A50A2B80C39500A3AED9 /* UserCell.swift in Sources */,
 				F740159B2B89F8C1002BB04D /* NotificationsView.swift in Sources */,

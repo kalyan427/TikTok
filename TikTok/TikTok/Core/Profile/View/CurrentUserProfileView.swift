@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct CurrentUserProfileView: View {
-    
     let authService: AuthService
     
     var body: some View {
@@ -17,7 +16,7 @@ struct CurrentUserProfileView: View {
                 VStack(spacing: 2) {
                     
                     // Profile header
-                    ProfileHeaderView()
+                    ProfileHeaderView(user: DeveloperPreview.user)
                     
                     // Post grid view
                     PostGridView()
